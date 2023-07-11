@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1080,1920">
+  <displayList>
+    <list id="n0_ucoh" name="n0" xy="501,51" size="200,300" overflow="scroll"/>
+    <richtext id="n1_ucoh" name="n1" xy="154,12" size="40,224" fontSize="12" autoSize="none" text=""/>
+    <component id="n3_ucoh" name="n3" src="w6rg2" fileName="Components/Button1.xml" xy="171,216"/>
+    <loader id="n2_ucoh" name="Loader1" xy="95,396" size="50,50"/>
+    <component id="n4_ucoh" name="n4" src="w6rg1" fileName="Components/OneComponent.xml" xy="185,660"/>
+  </displayList>
+</component>
