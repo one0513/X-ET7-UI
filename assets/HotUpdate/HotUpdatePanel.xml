@@ -2,8 +2,9 @@
 <component size="1080,1920" remark="Main">
   <displayList>
     <text id="n0_lobh" name="n0" xy="311,188" size="458,150" fontSize="60" align="center" vAlign="middle" autoSize="none" text="热更新"/>
-    <component id="n1_lobh" name="ProgressBar" src="lobh1" fileName="ProgressBar1.xml" xy="33,1049">
+    <component id="n1_lobh" name="ProgressBar" src="lobh1" fileName="Components/ProgressBar1.xml" xy="33,1049">
       <ProgressBar max="100"/>
     </component>
+    <text id="n2_o49a" name="n2" xy="384,543" size="295,162" fontSize="50" autoSize="none" text="测试"/>
   </displayList>
 </component>
