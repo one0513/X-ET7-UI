@@ -7,5 +7,6 @@
       <Button title="按钮" titleFontSize="35"/>
       <property target="image" propertyId="1" value="ui://f2boiu4iab9e4"/>
     </component>
+    <component id="n5_nev2" name="scrobar" src="ab9en" fileName="Components/ScrollBar1.xml" xy="31,48" size="17,200"/>
   </displayList>
 </component>

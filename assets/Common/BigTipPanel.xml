@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1080,120" pivot="0.5,0.5" anchor="true" opaque="false" remark="Common">
+  <displayList>
+    <graph id="n3_b5h3" name="n3" xy="0,0" size="1080,120" type="rect" fillColor="#c4000000">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n2_b5h3" name="msg" xy="0,0" size="1080,120" fontSize="50" color="#ffffff" align="center" vAlign="middle" vars="true" autoSize="shrink" autoClearText="true" text="XXXXXXX">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+</component>
