@@ -18,6 +18,7 @@
     <component id="lbinv" name="ProgressBar1.xml" path="/Components/" exported="true"/>
     <component id="w6rg3" name="TwoComponent.xml" path="/Components/" exported="true"/>
     <component id="gu5kw" name="BigTipPanel.xml" path="/" exported="true"/>
+    <font id="g6zfy" name="LXGWFasmartGothic.ttf" path="/" exported="true" renderMode="sdfaa" samplePointSize="60"/>
   </resources>
   <publish name="" path="../Unity/Assets/Bundles/FUI/Common" packageCount="2"/>
 </packageDescription>
