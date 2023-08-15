@@ -19,6 +19,12 @@
     <component id="w6rg3" name="TwoComponent.xml" path="/Components/" exported="true"/>
     <component id="gu5kw" name="BigTipPanel.xml" path="/" exported="true"/>
     <font id="g6zfy" name="LXGWFasmartGothic.ttf" path="/" exported="true" renderMode="sdfaa" samplePointSize="60"/>
+    <component id="ue3910" name="InputField2.xml" path="/Components/" exported="true"/>
+    <component id="ue3911" name="InputField3.xml" path="/Components/" exported="true"/>
+    <component id="ue3912" name="CloseBtn.xml" path="/Components/" exported="true"/>
+    <image id="ue3913" name="Paper_01.png" path="/Images/" exported="true"/>
+    <image id="ue3914" name="Mini_exit.png" path="/Images/" exported="true"/>
+    <image id="fyg915" name="Mini_help.png" path="/Images/" exported="true"/>
   </resources>
   <publish name="" path="../Unity/Assets/Bundles/FUI/Common" packageCount="2"/>
 </packageDescription>

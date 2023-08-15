@@ -4,6 +4,8 @@
     <component id="8omm0" name="LoginPanel.xml" path="/" exported="true"/>
     <image id="t52l1" name="main_poster.png" path="/Images/"/>
     <image id="t52l2" name="main_poster.jpeg" path="/Images/"/>
+    <component id="ue393" name="RegisterPanel.xml" path="/" exported="true"/>
+    <component id="fyg94" name="RegisterRulePanel.xml" path="/" exported="true"/>
   </resources>
   <publish name="" path="../Unity/Assets/Bundles/FUI/Login" packageCount="2"/>
 </packageDescription>

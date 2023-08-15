@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="800,771" pivot="0.5,0.5" anchor="true" remark="Main">
+  <displayList>
+    <loader id="n25_t52l" name="n25" xy="0,0" size="807,762" url="ui://f2boiu4iue3913" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <component id="n2_ab9e" name="AccountInput" src="ab9e2" fileName="Components/InputField1.xml" pkg="f2boiu4i" xy="220,150" tooltips="1111"/>
+    <component id="n3_ab9e" name="PasswordInput" src="ue3910" fileName="Components/InputField2.xml" pkg="f2boiu4i" xy="220,300"/>
+    <component id="n30_ue39" name="ConfirmPasswordInput" src="ue3911" fileName="Components/InputField3.xml" pkg="f2boiu4i" xy="220,450"/>
+    <component id="n27_lobh" name="LoginBtn" src="lobhq" fileName="Components/CommonBtn.xml" pkg="f2boiu4i" xy="183,600" size="434,110">
+      <Button title="注册并登入"/>
+      <property target="image" propertyId="1" value="ui://f2boiu4iab9e4"/>
+    </component>
+    <component id="n31_ue39" name="CloseBtn" src="ue3912" fileName="Components/CloseBtn.xml" pkg="f2boiu4i" xy="25,22"/>
+    <component id="n32_fyg9" name="RuleBtn" src="lobhq" fileName="Components/CommonBtn.xml" pkg="f2boiu4i" xy="678,23">
+      <Button icon="ui://f2boiu4ifyg915"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="360,71">
+  <displayList>
+    <image id="n0_ab9e" name="n0" src="ab9e3" fileName="Images/InputBg.png" xy="0,0" size="360,71" aspect="true"/>
+    <text id="n1_ab9e" name="Input" xy="0,0" size="360,71" fontSize="49" color="#333333" align="center" vAlign="middle" ubb="true" autoSize="shrink" singleLine="true" text="" input="true" prompt="确认密码" password="true"/>
+  </displayList>
+</component>

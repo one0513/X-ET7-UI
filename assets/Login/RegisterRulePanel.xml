@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="658,464" pivot="0.5,0.5" anchor="true" remark="Main">
+  <displayList>
+    <loader id="n25_t52l" name="n25" xy="0,0" size="665,455" url="ui://f2boiu4iue3913" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <component id="n31_ue39" name="CloseBtn" src="ue3912" fileName="Components/CloseBtn.xml" pkg="f2boiu4i" xy="25,22"/>
+    <text id="n33_fyg9" name="n33" xy="222,208" size="214,48" fontSize="35" color="#ffffff" text="测试两个弹窗"/>
+  </displayList>
+</component>
