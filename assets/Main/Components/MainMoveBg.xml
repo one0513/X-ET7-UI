@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1080,1200" overflow="scroll" scroll="horizontal" scrollBarFlags="128">
+  <displayList>
+    <image id="n0_o4sh" name="Bg" src="o4sh3" fileName="Images/BG03.png" xy="0,0" size="3139,1205" aspect="true"/>
+  </displayList>
+</component>

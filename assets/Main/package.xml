@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="9dh52fka">
+  <resources>
+    <component id="o4sh5" name="MainPanel.xml" path="/" exported="true"/>
+    <image id="o4sh0" name="BG06.png" path="/Images/"/>
+    <image id="o4sh1" name="BG01.png" path="/Images/"/>
+    <image id="o4sh2" name="BG02.png" path="/Images/"/>
+    <image id="o4sh3" name="BG03.png" path="/Images/"/>
+    <image id="o4sh4" name="BG04.png" path="/Images/"/>
+    <image id="o4sh6" name="BG05.png" path="/Images/"/>
+    <component id="o4sh7" name="MainMoveBg.xml" path="/Components/" exported="true"/>
+  </resources>
+  <publish name="" path="../Unity/Assets/Bundles/FUI/Main" packageCount="2"/>
+</packageDescription>
