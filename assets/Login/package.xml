@@ -1,11 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <packageDescription id="rgfb0w49">
   <resources>
-    <component id="8omm0" name="LoginPanel.xml" path="/" exported="true"/>
-    <image id="t52l1" name="main_poster.png" path="/Images/"/>
     <image id="t52l2" name="main_poster.jpeg" path="/Images/"/>
-    <component id="ue393" name="RegisterPanel.xml" path="/" exported="true"/>
     <component id="fyg94" name="RegisterRulePanel.xml" path="/" exported="true"/>
+    <component id="p7d20" name="CheckBox.xml" path="/Components/"/>
+    <component id="p7d24" name="LoginPanel.xml" path="/" exported="true"/>
+    <component id="p7d2d" name="RegisterPanel.xml" path="/" exported="true"/>
+    <component id="p7d2g" name="ServerChoosePanel.xml" path="/" exported="true"/>
+    <component id="p7d2o" name="ServerLeftItem.xml" path="/Components/"/>
+    <component id="p7d2r" name="ServerRightItem.xml" path="/Components/"/>
+    <component id="p7d2u" name="ServerPanel.xml" path="/" exported="true"/>
+    <image id="p7d2a" name="ui_DL_an_queding_01.png" path="/Images/"/>
+    <image id="p7d2e" name="ui_DL_an_quxiao_01.png" path="/Images/"/>
+    <image id="p7d29" name="ui_DL_an_zhuce_01.png" path="/Images/"/>
+    <image id="p7d2w" name="ui_DL_dianjihuanqu_01.png" path="/Images/"/>
+    <image id="p7d2l" name="ui_DL_fuwuqiliebiao_01.png" path="/Images/" scale="9grid" scale9grid="19,19,38,38"/>
+    <image id="p7d2p" name="ui_DL_fuwuqixuanze_01.png" path="/Images/"/>
+    <image id="p7d2n" name="ui_DL_huobao_01.png" path="/Images/" exported="true"/>
+    <image id="p7d2v" name="ui_DL_jinruyouxi_01.png" path="/Images/"/>
+    <image id="p7d25" name="ui_DL_kuang_01.png" path="/Images/" scale="9grid" scale9grid="17,16,34,32"/>
+    <image id="p7d2s" name="ui_DL_new_01.png" path="/Images/"/>
+    <image id="p7d2k" name="ui_DL_shangcidenglu_01.png" path="/Images/"/>
+    <image id="p7d2j" name="ui_DL_xuanzefuwuqi_01.png" path="/Images/"/>
+    <image id="p7d2m" name="ui_DL_zhuangshi_01.png" path="/Images/"/>
+    <image id="p7d26" name="ui_TY_gouxuan_01.png" path="/Images/"/>
+    <image id="p7d21" name="ui_TY_xuanzekuang_01.png" path="/Images/" scale="9grid" scale9grid="8,8,16,16"/>
+    <image id="p7d210" name="ui_TY_biaotilan_01.png" path="/Images/" exported="true"/>
+    <image id="p7d2i" name="ui_TY_di_shensebj_01.png" path="/Images/" exported="true" scale="9grid" scale9grid="8,10,16,20"/>
+    <image id="p7d2h" name="ui_TY_erjikuang_01.png" path="/Images/" exported="true" scale="9grid" scale9grid="113,100,29,17"/>
+    <image id="p7d2q" name="ui_TY_fanhui_01.png" path="/Images/" exported="true"/>
   </resources>
   <publish name="" path="../Unity/Assets/Bundles/FUI/Login" packageCount="2"/>
 </packageDescription>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="295,77" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_twkm" name="n0" src="p7d2l" fileName="登录注册/登录注册/ui_DL_fuwuqiliebiao_01.png" xy="0,0" size="295,77">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n1_twkm" name="title" xy="43,0" size="184,67" fontSize="24" color="#ffffff" vAlign="middle" autoSize="shrink" singleLine="true" text="12区  天下无双">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <loader id="n2_twkm" name="icon" xy="231,21" size="52,27" url="ui://rgfb0w49p7d2n" align="center" vAlign="middle" autoSize="true">
+      <relation target="" sidePair="right-right"/>
+    </loader>
+    <image id="n3_twkm" name="imgNew" src="p7d2s" fileName="登录注册/登录注册/ui_DL_new_01.png" xy="1,0">
+      <relation target="" sidePair="left-left"/>
+    </image>
+  </displayList>
+  <Button downEffect="dark" downEffectValue=".8"/>
+</component>

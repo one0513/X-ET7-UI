@@ -1,15 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="1080,1920" remark="Main">
+<component size="1080,1920" designImage="ui://gsxhv9pfp7d2b" designImageLayer="1" remark="Main">
   <displayList>
-    <image id="n25_t52l" name="n25" src="t52l2" fileName="Images/main_poster.jpeg" xy="0,0" size="1080,1919" aspect="true"/>
-    <component id="n2_ab9e" name="AccountInput" src="ab9e2" fileName="Components/InputField1.xml" pkg="f2boiu4i" xy="375,860"/>
-    <component id="n3_ab9e" name="PasswordInput" src="ue3910" fileName="Components/InputField2.xml" pkg="f2boiu4i" xy="375,988"/>
-    <component id="n27_lobh" name="LoginBtn" src="lobhq" fileName="Components/CommonBtn.xml" pkg="f2boiu4i" xy="323,1153" size="434,110">
-      <Button title="登入"/>
-      <property target="image" propertyId="1" value="ui://f2boiu4iab9e4"/>
+    <image id="n12_p7d2" name="n12" src="t52l2" fileName="Images/main_poster.jpeg" xy="0,0" size="1080,1920">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n0_ea6c" name="n0" src="p7d25" fileName="Images/ui_DL_kuang_01.png" xy="354,967" size="380,64">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n1_ea6c" name="n1" src="p7d25" fileName="Images/ui_DL_kuang_01.png" xy="354,1043" size="380,64">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <component id="n6_ea6c" name="cbPW" src="p7d20" fileName="Components/CheckBox.xml" xy="341,1143">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button selectedIcon="ui://rgfb0w49p7d26"/>
     </component>
-    <component id="n28_ue39" name="register " src="lobhq" fileName="Components/CommonBtn.xml" pkg="f2boiu4i" xy="467,1309" size="146,48">
-      <Button title="注册" titleColor="#ff3300" titleFontSize="40"/>
+    <component id="n8_ea6c" name="cbAuto" src="p7d20" fileName="Components/CheckBox.xml" xy="590,1144">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button selectedIcon="ui://rgfb0w49p7d26"/>
     </component>
+    <component id="n10_ea6c" name="btnRe" src="p7d27" fileName="Components/NormalBtn.xml" pkg="f2boiu4i" xy="248,1213">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button icon="ui://rgfb0w49p7d29"/>
+    </component>
+    <component id="n11_ea6c" name="btnSure" src="p7d27" fileName="Components/NormalBtn.xml" pkg="f2boiu4i" xy="644,1213">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button icon="ui://rgfb0w49p7d2a"/>
+    </component>
+    <text id="n2_ea6c" name="n2" xy="395,977" size="82,46" fontSize="26" color="#fbfdc5" autoSize="none" text="账号：">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n3_ea6c" name="n3" xy="395,1053" size="84,46" fontSize="26" color="#fbfdc5" autoSize="none" text="密码：">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n4_ea6c" name="inputAN" xy="467,973" size="253,47" fontSize="24" color="#ffffff" vAlign="middle" autoSize="shrink" text="" input="true" prompt="请输入账号" maxLength="16">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n5_ea6c" name="inputPW" xy="467,1049" size="253,47" fontSize="24" color="#ffffff" vAlign="middle" autoSize="shrink" text="" input="true" prompt="请输入密码" maxLength="16" password="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n7_ea6c" name="n7" xy="389,1141" size="107,34" fontSize="24" color="#ffffff" bold="true" text="记住密码">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n9_ea6c" name="n9" xy="637,1141" size="107,34" fontSize="24" color="#ffffff" bold="true" text="自动登录">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
   </displayList>
+  <transition name="show">
+    <item time="0" type="Alpha" tween="true" startValue="0" endValue="1" duration="6"/>
+  </transition>
+  <transition name="hide">
+    <item time="0" type="Alpha" tween="true" startValue="1" endValue="0" duration="6"/>
+  </transition>
+  <transition name="t2">
+    <item time="0" type="Alpha" tween="true" startValue="0" endValue="1" duration="6"/>
+  </transition>
 </component>

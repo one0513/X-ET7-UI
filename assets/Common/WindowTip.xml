@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="600,400">
+  <displayList>
+    <image id="n0_ea6c" name="n0" src="p7d2h" fileName="通用资源/ui_TY_erjikuang_01.png" xy="36,64" size="542,302" pkg="rgfb0w49">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n1_ea6c" name="n1" src="p7d210" fileName="通用资源/ui_TY_biaotilan_01.png" xy="153,47" size="302,57" pkg="rgfb0w49">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n2_ea6c" name="n2" xy="267,50" size="77,42" fontSize="26" color="#fdf7a1" align="center" vAlign="middle" autoSize="none" text="提示">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <richtext id="n3_ea6c" name="txtInfo" xy="65,121" size="483,148" fontSize="24" color="#ffffff" align="center" vAlign="middle" ubb="true" vars="true" autoSize="shrink" bold="true" strokeColor="#000000" strokeSize="0.2" faceDilate="0.2" autoClearText="true" text="提示内容">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </richtext>
+    <component id="n4_ea6c" name="closeButton" src="p7d27" fileName="NormalBtn.xml" xy="239,271" size="134,69">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button icon="ui://rgfb0w49p7d2a"/>
+    </component>
+    <graph id="n5_ea6c" name="dragArea" xy="158,46" size="294,56"/>
+    <graph id="n6_ea6c" name="contentArea" xy="64,108" size="484,241"/>
+  </displayList>
+</component>

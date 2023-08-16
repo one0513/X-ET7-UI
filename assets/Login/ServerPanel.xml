@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1080,1920" designImage="ui://gsxhv9pfp7d2x" designImageLayer="1" remark="Main">
+  <displayList>
+    <image id="n7_p7d2" name="n7" src="t52l2" fileName="Images/main_poster.jpeg" xy="0,0" size="1080,1920">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_twkm" name="n1" src="p7d25" fileName="Images/ui_DL_kuang_01.png" xy="353,1102" size="381,64">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <component id="n3_twkm" name="btnBegin" src="p7d2c" fileName="Components/NormalBtn2.xml" pkg="f2boiu4i" xy="440,1366" size="211,96">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button icon="ui://rgfb0w49p7d2v"/>
+    </component>
+    <component id="n4_twkm" name="btnChange" src="p7d2c" fileName="Components/NormalBtn2.xml" pkg="f2boiu4i" xy="603,1114" size="128,42">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button icon="ui://rgfb0w49p7d2w"/>
+    </component>
+    <text id="n5_twkm" name="txtName" xy="379,1111" size="232,42" fontSize="24" color="#ffffff" vAlign="middle" autoSize="shrink" singleLine="true" text="233区 人鬼情缘">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+  <transition name="show">
+    <item time="0" type="Alpha" tween="true" startValue="0" endValue="1" duration="6"/>
+  </transition>
+  <transition name="hide">
+    <item time="0" type="Alpha" tween="true" startValue="1" endValue="0" duration="6"/>
+  </transition>
+</component>

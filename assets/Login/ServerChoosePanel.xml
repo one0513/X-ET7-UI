@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="900,650" pivot="0.5,0.5" anchor="true" designImage="ui://gsxhv9pfp7d2t" designImageLayer="1" remark="Main">
+  <displayList>
+    <list id="n10_twkm" name="listLeft" xy="64,161" size="141,404" overflow="scroll" scrollBar="hidden" lineGap="5" defaultItem="ui://rgfb0w49p7d2o">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </list>
+    <image id="n0_twkm" name="n0" src="p7d2h" fileName="Images/ui_TY_erjikuang_01.png" xy="33,62" size="833,532">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n1_twkm" name="n1" src="p7d2i" fileName="Images/ui_TY_di_shensebj_01.png" xy="208,89" size="622,479">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n2_twkm" name="n2" src="p7d2j" fileName="Images/ui_DL_xuanzefuwuqi_01.png" xy="74,114">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n3_twkm" name="n3" src="p7d2k" fileName="Images/ui_DL_shangcidenglu_01.png" xy="304,114">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n4_twkm" name="n4" src="p7d2l" fileName="Images/ui_DL_fuwuqiliebiao_01.png" xy="423,96" size="281,63">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n5_twkm" name="n5" src="p7d2m" fileName="Images/ui_DL_zhuangshi_01.png" xy="244,158">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n7_twkm" name="txtName" xy="444,104" size="190,36" fontSize="25" color="#ffffff" vAlign="middle" autoSize="shrink" singleLine="true" autoClearText="true" text="1区  绿色平原">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <loader id="n8_twkm" name="imgState" xy="639,111" size="52,27" url="ui://rgfb0w49p7d2n" clearOnPublish="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <text id="n9_twkm" name="txtRange" xy="303,156" size="434,35" fontSize="22" color="#fbcc3a" align="center" vAlign="middle" ubb="true" vars="true" autoSize="none" text="[color=#FFFFFF,#FBCC3A]{string=服务器31—40}[/color]">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <image id="n6_twkm" name="n6" src="p7d2q" fileName="Images/ui_TY_fanhui_01.png" xy="126,562" size="22,21" rotation="270">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <list id="n11_twkm" name="listRight" xy="216,197" size="606,360" layout="flow_hz" overflow="scroll" scrollBar="hidden" lineGap="5" colGap="10" lineItemCount="2" defaultItem="ui://rgfb0w49p7d2r">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </list>
+  </displayList>
+  <transition name="show">
+    <item time="0" type="Alpha" tween="true" startValue="0" endValue="1" duration="6"/>
+  </transition>
+  <transition name="hide">
+    <item time="0" type="Alpha" tween="true" startValue="1" endValue="0" duration="6"/>
+  </transition>
+</component>

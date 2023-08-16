@@ -1,19 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="800,771" pivot="0.5,0.5" anchor="true" remark="Main">
+<component size="800,650" pivot="0.5,0.5" anchor="true" designImage="ui://gsxhv9pfp7d2f" designImageLayer="1" remark="Main">
   <displayList>
-    <loader id="n25_t52l" name="n25" xy="0,0" size="807,762" url="ui://f2boiu4iue3913" fill="scaleFree">
-      <relation target="" sidePair="width-width,height-height"/>
-    </loader>
-    <component id="n2_ab9e" name="AccountInput" src="ab9e2" fileName="Components/InputField1.xml" pkg="f2boiu4i" xy="220,150" tooltips="1111"/>
-    <component id="n3_ab9e" name="PasswordInput" src="ue3910" fileName="Components/InputField2.xml" pkg="f2boiu4i" xy="220,300"/>
-    <component id="n30_ue39" name="ConfirmPasswordInput" src="ue3911" fileName="Components/InputField3.xml" pkg="f2boiu4i" xy="220,450"/>
-    <component id="n27_lobh" name="LoginBtn" src="lobhq" fileName="Components/CommonBtn.xml" pkg="f2boiu4i" xy="183,600" size="434,110">
-      <Button title="注册并登入"/>
-      <property target="image" propertyId="1" value="ui://f2boiu4iab9e4"/>
+    <image id="n13_p7d2" name="n13" src="p7d2h" fileName="Images/ui_TY_erjikuang_01.png" xy="0,42" size="800,565"/>
+    <image id="n14_p7d2" name="n14" src="p7d210" fileName="Images/ui_TY_biaotilan_01.png" xy="220,14"/>
+    <image id="n0_ea6c" name="n0" src="p7d25" fileName="Images/ui_DL_kuang_01.png" xy="214,177" size="380,64">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n1_ea6c" name="n1" src="p7d25" fileName="Images/ui_DL_kuang_01.png" xy="214,269" size="380,64">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n15_p7d2" name="n15" src="p7d25" fileName="Images/ui_DL_kuang_01.png" xy="213,360" size="380,64">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n2_ea6c" name="n2" xy="230,187" size="82,46" fontSize="26" color="#fbfdc5" autoSize="none" text="账号：">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n3_ea6c" name="n3" xy="224,279" size="84,46" fontSize="26" color="#fbfdc5" autoSize="none" text="密码：">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n12_ea6c" name="n12" xy="305,12" size="189,58" fontSize="32" color="#efe993" align="center" vAlign="middle" autoSize="none" text="用户注册">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n4_ea6c" name="inputAN" xy="327,183" size="253,47" fontSize="24" color="#ffffff" vAlign="middle" autoSize="shrink" text="" input="true" prompt="请输入账号" maxLength="16">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n5_ea6c" name="inputPW" xy="327,275" size="253,47" fontSize="24" color="#ffffff" vAlign="middle" autoSize="shrink" text="" input="true" prompt="请输入密码" maxLength="16" password="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n17_p7d2" name="inputAgainPW" xy="326,366" size="253,47" fontSize="24" color="#ffffff" vAlign="middle" autoSize="shrink" text="" input="true" prompt="请输入密码" maxLength="16" password="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n16_p7d2" name="n16" xy="219,370" size="107,46" fontSize="20" color="#fbfdc5" vAlign="middle" autoSize="none" text="确认密码：">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n10_ea6c" name="btnClose" src="p7d27" fileName="Components/NormalBtn.xml" pkg="f2boiu4i" xy="109,456">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button icon="ui://rgfb0w49p7d2e"/>
     </component>
-    <component id="n31_ue39" name="CloseBtn" src="ue3912" fileName="Components/CloseBtn.xml" pkg="f2boiu4i" xy="25,22"/>
-    <component id="n32_fyg9" name="RuleBtn" src="lobhq" fileName="Components/CommonBtn.xml" pkg="f2boiu4i" xy="678,23">
-      <Button icon="ui://f2boiu4ifyg915"/>
+    <component id="n11_ea6c" name="btnSure" src="p7d27" fileName="Components/NormalBtn.xml" pkg="f2boiu4i" xy="505,456">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button icon="ui://rgfb0w49p7d2a"/>
     </component>
   </displayList>
+  <transition name="show">
+    <item time="0" type="Alpha" tween="true" startValue="0" endValue="1" duration="6"/>
+  </transition>
+  <transition name="hide">
+    <item time="0" type="Alpha" tween="true" startValue="1" endValue="0" duration="6"/>
+  </transition>
 </component>
