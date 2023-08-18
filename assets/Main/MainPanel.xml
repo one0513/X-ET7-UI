@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="1080,1920" remark="Main">
   <displayList>
-    <component id="n29_o4sh" name="MoveBg" src="o4sh7" fileName="Components/MainMoveBg.xml" xy="0,0">
+    <component id="n29_o4sh" name="MoveBg" src="o4sh7" fileName="Components/MainMoveBg.xml" xy="0,0" size="1080,1920">
       <relation target="" sidePair="width-width,height-height,left-left,top-top"/>
     </component>
-    <graph id="n33_o4sh" name="n33" xy="0,1120" size="1080,800" type="rect" fillColor="#ffffcb8a">
+    <graph id="n33_o4sh" name="n33" xy="0,1489" size="1080,431" type="rect" fillColor="#6d000000">
       <relation target="" sidePair="width-width,height-height,center-center,bottom-bottom"/>
     </graph>
+    <component id="n35_p7d2" name="btnTest" src="p7d27" fileName="Components/NormalBtn.xml" pkg="f2boiu4i" xy="835,1504">
+      <Button title="创建角色" titleColor="#ffffff"/>
+    </component>
+    <graph id="n36_p7d2" name="Player" xy="89,1047" size="123,296" type="rect"/>
   </displayList>
 </component>

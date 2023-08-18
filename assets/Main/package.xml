@@ -9,6 +9,9 @@
     <image id="o4sh4" name="BG04.png" path="/Images/"/>
     <image id="o4sh6" name="BG05.png" path="/Images/"/>
     <component id="o4sh7" name="MainMoveBg.xml" path="/Components/" exported="true"/>
+    <component id="p7d28" name="Line.xml" path="/Components/" exported="true"/>
+    <image id="p7d29" name="Body.png" path="/Images/"/>
+    <image id="p7d2a" name="Head.png" path="/Images/"/>
   </resources>
   <publish name="" path="../Unity/Assets/Bundles/FUI/Main" packageCount="2"/>
 </packageDescription>
