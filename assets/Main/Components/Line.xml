@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="0,0" pivot="0.5,1" anchor="true">
+  <displayList>
+    <image id="n0_p7d2" name="start" src="p7d29" fileName="Images/Body.png" xy="0,0" pivot="0.5,0.5" anchor="true"/>
+    <image id="n1_p7d2" name="p1" src="p7d29" fileName="Images/Body.png" xy="0,23" pivot="0.5,0.5" anchor="true"/>
+    <image id="n2_p7d2" name="p2" src="p7d29" fileName="Images/Body.png" xy="0,23" pivot="0.5,0.5" anchor="true"/>
+    <image id="n3_p7d2" name="p3" src="p7d29" fileName="Images/Body.png" xy="0,23" pivot="0.5,0.5" anchor="true"/>
+    <image id="n4_p7d2" name="p4" src="p7d29" fileName="Images/Body.png" xy="0,23" pivot="0.5,0.5" anchor="true"/>
+    <image id="n5_p7d2" name="p5" src="p7d29" fileName="Images/Body.png" xy="0,23" pivot="0.5,0.5" anchor="true"/>
+    <image id="n6_p7d2" name="end" src="p7d2a" fileName="Images/Head.png" xy="0,0" pivot="0.5,0.5" anchor="true"/>
+  </displayList>
+</component>

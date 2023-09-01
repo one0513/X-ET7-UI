@@ -28,7 +28,7 @@
     <component id="p7d2z" name="WindowTip.xml" path="/" exported="true"/>
     <component id="p7d27" name="NormalBtn.xml" path="/Components/" exported="true"/>
     <component id="p7d2c" name="NormalBtn2.xml" path="/Components/" exported="true"/>
-    <image id="p7d28" name="ui_DL_anniuxiao_01.png" path="/Images/" exported="true" scale9grid="45,38,19,15"/>
+    <image id="p7d28" name="ui_DL_anniuxiao_01.png" path="/Images/" exported="true" scale="9grid" scale9grid="45,38,19,6"/>
   </resources>
   <publish name="" path="../Unity/Assets/Bundles/FUI/Common" packageCount="2"/>
 </packageDescription>

@@ -7,7 +7,7 @@
     <component id="p7d24" name="LoginPanel.xml" path="/" exported="true"/>
     <component id="p7d2d" name="RegisterPanel.xml" path="/" exported="true"/>
     <component id="p7d2g" name="ServerChoosePanel.xml" path="/" exported="true"/>
-    <component id="p7d2o" name="ServerLeftItem.xml" path="/Components/"/>
+    <component id="p7d2o" name="ServerLeftItem.xml" path="/Components/" exported="true"/>
     <component id="p7d2r" name="ServerRightItem.xml" path="/Components/"/>
     <component id="p7d2u" name="ServerPanel.xml" path="/" exported="true"/>
     <image id="p7d2a" name="ui_DL_an_queding_01.png" path="/Images/"/>

@@ -7,9 +7,9 @@
     <graph id="n33_o4sh" name="n33" xy="0,1489" size="1080,431" type="rect" fillColor="#6d000000">
       <relation target="" sidePair="width-width,height-height,center-center,bottom-bottom"/>
     </graph>
-    <component id="n35_p7d2" name="btnTest" src="p7d27" fileName="Components/NormalBtn.xml" pkg="f2boiu4i" xy="835,1504">
+    <component id="n35_p7d2" name="btnTest" src="p7d27" fileName="Components/NormalBtn.xml" pkg="f2boiu4i" xy="455,1623">
       <Button title="创建角色" titleColor="#ffffff"/>
     </component>
-    <graph id="n36_p7d2" name="Player" xy="89,1047" size="123,296" type="rect"/>
+    <component id="n36_p7d2" name="Player" src="p7d2b" fileName="Components/Player.xml" xy="165,1300" pivot="0.5,1" anchor="true" size="300,350"/>
   </displayList>
 </component>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="300,450">
+  <controller name="onSelect" pages="0,on,1,off" selected="0"/>
+  <displayList>
+    <graph id="n36_p7d2" name="player" xy="150,450" pivot="0.5,1" anchor="true" size="300,450">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <component id="n37_p7d2" name="n37" src="p7d2h" fileName="Components/Select.xml" xy="0,0">
+      <gearDisplay controller="onSelect" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+  </displayList>
+</component>

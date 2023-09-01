@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="300,450">
+  <displayList>
+    <image id="n37_p7d2" name="n37" src="p7d2c" fileName="Images/BottomLeft.png" xy="-15,390">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </image>
+    <image id="n38_p7d2" name="n38" src="p7d2d" fileName="Images/BottomRight.png" xy="240,390">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </image>
+    <image id="n39_p7d2" name="n39" src="p7d2e" fileName="Images/TopLeft.png" xy="-15,-15">
+      <relation target="" sidePair="left-left,top-top"/>
+    </image>
+    <image id="n40_p7d2" name="n40" src="p7d2f" fileName="Images/TopRight.png" xy="240,-15">
+      <relation target="" sidePair="right-right,top-top"/>
+    </image>
+  </displayList>
+</component>
